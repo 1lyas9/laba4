@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <omp.h>
 
-const int MATRIX_SIZE = 1000; // Размер матрицы
+const int MATRIX_SIZE = 500; // Размер матрицы
 
 void matrixMultiplicationSequential(float** A, float** B, float** C) {
     for (int i = 0; i < MATRIX_SIZE; ++i) {
